@@ -1,5 +1,5 @@
 package com.sebast.creational.model
 
-abstract class MapSite {
+abstract class MapSite : Cloneable {
     fun enter() = 0
 }
