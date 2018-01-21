@@ -3,7 +3,7 @@ package com.sebast.creational.bridge
 object BridgePattern {
 
     fun demo() {
-        val abstraction1: Abstraction = RevinedAbstraction()
+        val abstraction1: Abstraction = RefinedAbstraction()
         abstraction1.greet()
 
         val implementor: Implementor = object : Implementor {
